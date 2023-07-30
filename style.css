@@ -1,0 +1,53 @@
+.light-red {
+    background-image: url("./images/bg-pattern-intro-desktop.svg");
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(355, 100%, 74%);
+}
+
+.very-dark-blue{
+    color: hsl(208, 49%, 24%);
+}
+
+body {
+    background-color: white;
+    font-family: 'Noto Sans Lepcha', sans-serif;
+}
+
+.border-bottom-left {
+    border-bottom-left-radius: 80px;
+}
+
+#nav--signup-button{
+    font-weight: bold;
+    color: hsl(356, 100%, 66%);
+    padding: 10px 30px;
+}
+
+#hero--start-button {
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+}
+
+/* #about{
+    background-image: url("./images/illustration-editor-desktop.svg");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: 120%;
+    
+} */
+
+#about>h2, #about h3{
+    color: hsl(208, 49%, 24%);
+    font-weight: bold;
+}
+
+#hamburger{
+    background-color: white;
+    color: white;
+}
+.banner{
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
